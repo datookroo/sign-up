@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.first > img {
+    height: 100vh;
+    width: auto;
+}
+.first #odin{
+    position: absolute;
+    top: 150px;
+    width: 443px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    
+}
+.first #odin img{
+    width: auto;
+    height: 150px;
+}
+.second .text {
+    background-color: whitesmoke;
+    height: 20vh;
+    width: 880px;
+    padding: 60px 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.second .text p {
+    width: 600px;
+    margin: 15px 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.second .form {
+    padding: 20px 40px;
+    box-shadow: 3px 3px 2px gray;
+}
+.second .form form {
+    display: flex;
+    gap: 50px;
+}
+.second .form h3 {
+    font-family: sans-serif;
+}
+input {
+    display: block;
+    outline: none;
+    border: 1px solid #E5E7EB;
+    padding: 3px;
+    border-radius: 3px;
+}
+label {
+    font-size: 13px;
+    font-family: sans-serif;
+
+}
+.pair {
+    margin: 20px 0;
+}
+
+input:focus {
+    border-color: blue;
+}
+input:valid{
+    border-color: green;
+}
+input[type="password"]{
+    border-color: red;
+}
+input[type="password"]:focus{
+    border-color: blue;
+}
+input[type="password"]:valid{
+    border-color: green;
+}
+
+.second .form2 div{
+    margin: 30px 40px;
+}
+.second .form2 div button{
+    padding: 12px 50px;
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+} 
+.second .form2 div p{
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+span {
+    color: #596D48;
+}
+
